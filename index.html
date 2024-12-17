@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhroov portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4b2da17183.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Website Developer</p>
+                <h1>Hi,I'm <span>Dhroov</span><br> verma from karnal.</h1>
+            </div>
+        </div>
+    </div>
+    <!---------------------about----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi , my name is Dhroov i had done my graduation from a non medical field after that i got interested in doing coding and learning about new things ,So i start learning new languages and new computer skills but at last i got more interested in making a website because it gives me enthusiasm to change the whole website by only one click , so that's why i had learnt about HTML,CSS, Javascript and also had a good command in canva .</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>website Developer</span><br>designing webpages conveniently</li>
+                            <li><span>Microsoft excel</span><br>developing excel sheets</li>
+                            <li><span>Gsap</span><br>Making animations easy</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>currently</span><br>Fresher</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024-2026</span><br>persuingMCA(Masters of computer applications)online</li>
+                            <li><span>2023-2024</span><br>front-end developement from DUCAT</li>
+                            <li><span>2022-2023</span><br>PGDCA</li>
+                            <li><span>2019-2022</span><br>BSC NON-MEDICAL</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------services--------------- -->
+
+    <div id="services">
+     <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Website Designer</h2>
+                <p>I will help to create a website that is visually appealing, user-friendly, and responsive,it is gonna include  custom layouts, intuitive navigation, and optimized designs to enhance user experience and brand identity.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-file-excel"></i>
+                <h2>Microsoft excel</h2>
+                <p>I will help to organize data and numbers with formulas and functions,I can  embed connection strings to external data sources in the workbook or save them centrally in a data connection library file.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-lightbulb"></i>
+                <h2>Problem solving </h2>
+                <p>I had a ability for adapting to new situations,Thinking outside the box,and Learning from past experiences which is gonna be help in the business .</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+     </div>
+    </div>
+<!-- -----------------------portfolio-------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Family golf website</h3>
+                        <p>This is the clone of the website name sidcup family golf--Sidcup Family Golf is a Toptracer driving range and crazy golf venue in Sidcup, South East London. In making of this website i had used to learn many types of technologies that is gonna be very helpful for my future like HTML,CSS,JAVASCRIPT.</p>
+                        <a href="https://dhroov-coder.github.io/sidcup-family-golf/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Cynthia ugwu official website</h3>
+                        <p>This is the clone of the official website-- cynthia ugwu , its a product based company that will create products that are not only look good but also solve a real problems. I had made only first page of it with the usage of HTML,CSS AND JAVASCRIPT-- with some cool animations and also add smoothness.</p>
+                        <a href="https://dhroov-coder.github.io/cynthia-ugwu-clone/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <a href="#" class="btn">See more</a>
+
+        </div>
+    </div>
+
+
+    <!-- -------------------contact--------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> vermadhroov1@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 9896344411</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/dhroov-verma-11990326b
+                        "><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/dhroov-coder
+                        "><i class="fa-brands fa-github"></i></a>
+                        <a href="https://x.com/dhroov__verma">
+                        <i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <a href="images/Dhroov_resume12.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © 2024 <i class="fa-solid fa-heart"></i> Dhroov verma </p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0"
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px"
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxbOtyy2msx9roCU50vXBdO6tLJxI1foiXgGp7xXTdUvUWLflMtdCBMnNQZazDbsTQ_/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
